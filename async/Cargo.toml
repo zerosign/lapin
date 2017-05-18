@@ -13,9 +13,9 @@ build = "build.rs"
 
 [dependencies]
 log = "^0.3"
-nom = "^2.2"
+nom = "^3.0"
 cookie-factory = "^0.2"
-amq-protocol = "^0.16"
+amq-protocol = "^0.17"
 clippy = {version = "^0.0.131", optional = true}
 
 [dependencies.sasl]
@@ -23,12 +23,10 @@ version= "^0.4"
 default-features = false
 
 [build-dependencies]
-amq-protocol = "^0.16"
+amq-protocol = "^0.17"
 
 [dev-dependencies]
 env_logger = "^0.4"
 
 [features]
 default = []
-
-
